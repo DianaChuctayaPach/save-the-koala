@@ -27,5 +27,17 @@ army green: 41521F;
     .lista2{
         display: none;
     }
+    .koala1{
+        display: none;
+    }
+    .cosita{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .parrafo{
+        /* display: flex; */
+        /* flex-direction: column; */
+        display: block;
+    }
     
 }
