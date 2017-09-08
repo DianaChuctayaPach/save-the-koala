@@ -1,0 +1,38 @@
+*{
+    /* outline: 1px solid red; */
+}
+body{
+
+}
+header{
+    background-image: url(../img/portada.jpg);
+    /* background: teal; */
+    height: 670px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+#menu{
+    position: absolute;
+    top: 29vw;
+    left: 10%;
+}
+#titulo{
+ font-weight: 700;
+ font-size: 4vw;
+}
+.txttitulo{
+    /* font-weight: 700; */
+    font-size: 1.5vw;
+}
+#boton{
+    background: #425D1D;
+    border: 2px solid #425D1D;
+    /* font-weight: 500; */
+    font-size: 2vw;
+    border-radius: 7px;
+    display: flex;
+}
+/* ===============================================================
+                        SECCION1
+=============================================================== */

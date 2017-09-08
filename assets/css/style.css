@@ -2,3 +2,14 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+@media (max-width:800px) {
+    .txttitulo{
+        width: 70%;
+        /* font-size: 13px; */
+    }
+    .boton{
+        border-radius: 2px;
+    }
+
+    
+}
