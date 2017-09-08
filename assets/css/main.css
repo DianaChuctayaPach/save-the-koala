@@ -1,28 +1,48 @@
 *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 body{
     padding: 0;
     margin: 0;
+    width: 100%;
 
 }
 nav li a{
     color: white;
     font-size: 18px;
     /* position: fixed; */
+    
+}
+nav{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    background: rgba(85, 83, 83, 0.31);
 }
 header{
     background-image: url(../img/portada.jpg);
     /* background: teal; */
-    height: 670px;
+    height: 700px;
+    /* max-height: 470px; */
     background-size: 100%;
     background-repeat: no-repeat;
     color: #ffffff;
+    position: relative;
+  
+    
+}
+#portada{
+    /* position: absolute; */
+    /* position: relative; */
+    /* z-index: 1; */
+    /* display: flex; */
+    
 }
 #menu{
     position: absolute;
-    top: 50%;
+    margin-top: 10vw;
     left: 10%;
+    z-index: 100;
 }
 #titulo{
  font-weight: 700;
@@ -41,14 +61,136 @@ header{
     display: flex;
 }
 /* ===============================================================
-                        SECCION1
+                        SECCION2
 =============================================================== */
 .koala1{
- width: 400px;
- height: 500px;
-    padding-top: 30px;
+    width: 300px;
+ /* height: 500px; */
+    /* padding-top: 30px; */
+    /* display: flex; */
 }
 #seccion2{
     padding: 20px;
+    /* display: flex; */
 
+}
+.textsec2{
+    margin-top: 25px;
+}
+/* ===============================================================
+                        SECCION3
+=============================================================== */
+#seccion3{
+    background: rgba(159, 145, 94, 0.97);
+    height: 43vw;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.textosec3{
+    top: 50px;
+}
+.cosita{
+    border:7px solid white;
+    height: 20vw;
+    
+}
+#imagensec3{
+    float: right;
+    top: 70px;
+    
+    
+
+}
+#botonsec3{
+    background: #425D1D;
+    border: 2px solid #425D1D;
+    /* font-weight: 500; */
+    font-size: 1vw;
+    border-radius: 7px;
+    display: flex;
+}
+.text1sec3{
+    font-size: 1.5vw;
+}
+.text2sec3{
+    font-size: 2.4vw;
+}
+/* ===============================================================
+                        SECCION4
+=============================================================== */
+#seccion4{
+    height: 50vw;
+    background:url(../img/all.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.textsec4{
+    left: 50%;
+    margin-top: 5%;
+}
+.text1{
+    font-size: 1vw;
+}
+.text2{
+    font-size: 2vw;
+}
+/* ===============================================================
+                        SECCION5
+=============================================================== */
+#seccion5{
+    background: rgb(255, 249, 218);
+    height: 35vw;
+}
+.textossec5{
+    margin-top: 40px;
+}
+.text1sec5{
+    font-size: 2vw;
+    margin-top: 20px;
+}
+#icono{
+    color: rgba(159, 145, 94, 0.97);
+    font-size: 5vw;
+}
+/* ===============================================================
+                        SECCION6
+=============================================================== */
+#seccion6{
+    background:rgb(177, 169, 96);
+    height: 40vw;
+    /* height: 300px; */
+    padding: 20px;
+    /* z-index: 100; */
+}
+.texto1sec6{
+    color: #144614;
+}
+.dolar{
+    color: white;
+    font-size: 2vw;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.costo{
+    font-size: 8vw;
+    color: white;
+    margin-top: -30px;
+
+}
+.costo3{
+    margin-left: 30px;
+}
+.aud{
+     
+}
+/* ===============================================================
+                        SECCION7
+=============================================================== */
+#seccion7{
+    background: rgba(33, 50, 10, 0.97);
+    height: 20vw;
+    color: white;
 }

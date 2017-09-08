@@ -2,10 +2,21 @@
 wood brown: A89F68;
 army green: 41521F;
 */
-@media (max-width:800px) {
+*{
+    /* outline: 1px solid rebeccapurple; */
+}
+.parrafo{
+    font-size: 1.2vw;
+}
+@media (min-width: 100px) and (max-width:800px) {
     .txttitulo{
         width: 70%;
         /* font-size: 13px; */
+    }
+    header{
+        width: 100%;
+        max-height: 200px;
+        
     }
     .boton{
         border-radius: 2px;
